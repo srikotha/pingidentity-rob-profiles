@@ -360,7 +360,7 @@
                     "saml2EntityId": "https://${PF_ENGINE_PRIVATE_HOSTNAME}:${PF_ENGINE_PRIVATE_PORT_HTTPS}",
                     "saml1xIssuerId": "localhost:default:entityId",
                     "wsfedRealm": "",
-                    "baseUrl": "https://${PF_ENGINE_PRIVATE_HOSTNAME}:${PF_ENGINE_PRIVATE_PORT_HTTPS}",
+                    "baseUrl": "https://${PF_ENGINE_BASE_URL}",
                     "saml1xSourceId": ""
                 },
                 "contactInfo": {},
