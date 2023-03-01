@@ -1,0 +1,8 @@
+dsconfig create-password-policy \
+    --policy-name TestPwdPolicy  \
+    --set require-secure-authentication:true  \
+    --set require-secure-password-changes:true  \
+    --set password-attribute:userPassword  \
+    --set default-password-storage-scheme:Bcrypt  \
+    --set allow-pre-encoded-passwords:true
+    
