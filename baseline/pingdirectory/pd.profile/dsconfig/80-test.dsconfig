@@ -4,5 +4,5 @@ dsconfig create-password-policy \
     --set require-secure-password-changes:true  \
     --set password-attribute:userPassword  \
     --set default-password-storage-scheme:Bcrypt  \
-    --set allow-pre-encoded-passwords:true
-    
+    --set allow-pre-encoded-passwords:true \
+    --set deprecated-password-storage-scheme:SHA-1
