@@ -19,7 +19,7 @@ export PF_ENGINE_PRIVATE_HOSTNAME=${PF_ENGINE_PRIVATE_HOSTNAME:=pingfederate}
 export PF_ENGINE_PUBLIC_HOSTNAME=${PF_ENGINE_PUBLIC_HOSTNAME:=localhost}
 export PF_ENGINE_PUBLIC_PORT_HTTPS=${PF_ENGINE_PUBLIC_PORT_HTTPS:=9031}
 export PF_ENGINE_PRIVATE_PORT_HTTPS=${PF_ENGINE_PRIVATE_PORT_HTTPS:=9031}
-export UNBOUNDID_COMMON_JAVA_ARGS=-Djdbc.drivers=com.mysql.jdbc.driver
+export UNBOUNDID_COMMON_JAVA_ARGS=-Djdbc.drivers=com.testsql.jdbc.driver
 
 #
 # Matches the certificate alias found in config/keystore.p12
