@@ -45,5 +45,5 @@ jetty51.encode.cookies=
 cookies.skip.quoting=_saml_idp
 javax.net.ssl.sessionCacheSize=5000
 org.apache.xml.security.ignoreLineBreaks=true
+# com.unboundid.ldap.sdk.debug.type=LDAP
 com.pingidentity.tapestry.services.CustomHomeService=ReactHome
-
